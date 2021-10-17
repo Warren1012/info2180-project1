@@ -9,3 +9,14 @@ body {
     max-width: 960px;
     width: 100%;
 }
+
+
+ul{
+    list-style-type:none;
+    float: right;
+}
+
+li{
+    float: left;
+    padding: 5px;
+}
