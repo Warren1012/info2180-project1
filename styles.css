@@ -1,16 +1,8 @@
 /* Add your CSS to this file */
-body {
-    margin: 0;
-    font-size: 16px;
+header h1{
+    display: inline-block;
+    padding-right: 0px;
 }
-
-.container {
-    margin: 0 auto;
-    max-width: 960px;
-    width: 100%;
-}
-
-
 ul{
     list-style-type:none;
     float: right;
@@ -20,3 +12,44 @@ li{
     float: left;
     padding: 5px;
 }
+.overview-hero-image{
+    padding-top: 50px;
+}
+.overview-hero-image img{
+    height:250px;
+    float: left;
+}
+.overview-hero-image p{
+    float:right;
+}
+.card img{
+    height:250px;
+}
+.cards{
+   
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    padding: 20px;
+    margin:10px;
+    border: 20px;  
+    justify-content: space-evenly;
+    padding-top:5px ;     
+}
+.learn-about{
+    padding-top: 100px;
+}
+.learn-about h2{
+    grid-column: span 3;
+    height: 20px;
+    background: #2C5282;
+    color: #FFFFFF;
+    padding: 20px;
+  }
+  .testing {
+    grid-column: span 5;
+    height: 250px;
+    background: #2C5282;
+    color: #FFFFFF;
+    padding: 20px;
+  }
+  
