@@ -35,29 +35,37 @@ a:hover {
 .overview-hero{
     background: #E2E8F0 ;
     grid-column: span 3;
-    height: 275px;
+    height: 200px;
     padding: 20px;
+
 }
 .overview-hero-image img{
-    height:250px;
+    height:150px;
+    display: block;
+    padding-left: 300px;
+    margin-left: auto;
+    margin-right: auto;
     float: left;
     padding-right: 20px;
+    align-items: center;
 }
 .overview-hero-image p{
-    float:right;
+
+    text-align:center ;
 }
 
 
 .learn-about{
-    padding-top: 100px;
+    padding-top: 5px;
+
 }
 .learn-about h2{
     grid-column: span 3;
-    background: lightcoral;
     font-size: 24px;
     color:#48BB78 ;
     height: 20px;
     padding: 20px;
+    margin: 50px;
 }
 .card{
     border-style: solid;
@@ -85,7 +93,6 @@ a:hover {
 .card h3{
     color:#48BB78;
     font-size: 21px;
-    margin: 15px;
 }
 .card p {
     margin: 15px;
@@ -100,6 +107,7 @@ a:hover {
     padding: 20px;
     align-content: center;
 }
+ 
 .cta{
     float: right;
     margin-right: 100px;
@@ -107,41 +115,65 @@ a:hover {
     border-style: solid;
     border-color: #48BB78;
     border-radius:5px;
-      
+    text-align: center; 
+    padding: 15px 32px;    
+}
+.testing a{
+    color:#FFFFFF;
+    align-content: center;
+    
 }
 
-
-
+.stories{
+    margin: 50px
+}
   .stories img{
     float: left;
-    width: 100px;
+    width: 250px;
     border-radius: 50%;
     padding-right: 15px; 
   } 
   .article-body{
       padding-bottom: 50px;
   }
+.stories h2{
+     color: #5A67D8;
+ }
+ .stories a {
+    color: #5A67D8;
 
+ }
+ .stories h3{
+     font-size: 18px;
+ }
 
   .newsletter{
       display: flex;
       justify-content: center;
       background:#48BB78 ;
       color:white;
+      height: 250px;
   }
    .form-group{
-       display: inline-block; 
+       display: inline-block;
+       padding: 15px 15px; 
    }
+
+   .form-group input{
+    display: inline-block;
+    padding: 15px 15px; 
+}
+   
 .newsletter button{
     display: inline-block; 
     background-color: #5A67D8;
     border-style: solid;
     border-color:#5A67D8;
     border-radius: 5px;
+    padding: 15px 32px;
 }
 
 footer{
-    grid-template-columns: span 3 ;
     background:#4A5568 ;
     color: white;
     height: 75px;
